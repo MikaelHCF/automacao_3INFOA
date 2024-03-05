@@ -7,3 +7,10 @@ A nota for menor que 6 ou se as presencas
 forem menor do que 75 e aprovado 
 caso contrário.
 '''
+nf = int(input("Quantidades de falta :"))
+nn = int(input("Nota do aluno :"))
+
+if nn > 6 and nf >= 75:
+    print("Aprovado")
+else:
+    print("Reprovado")
