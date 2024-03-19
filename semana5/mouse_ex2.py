@@ -1,0 +1,8 @@
+import pyautogui
+
+#coloca o mouse em cima da imagem
+pyautogui.moveTo(188, 232, duration = 2)
+
+#arrasta a imagem para a pasta
+pyautogui.dragRel(255, 0, duration = 2)
+
